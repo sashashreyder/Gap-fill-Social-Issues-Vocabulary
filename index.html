@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gap-fill | Social-Issues Vocabulary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <video id="bg-video" autoplay muted loop playsinline preload="auto">
+    <source src="bg.mp4" type="video/mp4">
+  </video>
+
+  <div class="card">
+    <h1>Gap-fill: Social-Issues Vocabulary</h1>
+
+    <p class="instructions">
+      Fill in the missing social-issues words. Hover <strong>?</strong> for a hint, then click
+      <em>Check&nbsp;your&nbsp;score</em>.
+    </p>
+
+    <p>
+      Many countries face
+      <span class="blank" data-answer="overpopulation">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">too many people in an area</span>
+      </span>,
+      leading to high
+      <span class="blank" data-answer="unemployment">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">the state of not having a job</span>
+      </span>
+      and rising housing costs. Meanwhile an online
+      <span class="blank" data-answer="infodemic">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">overflow of misinformation</span>
+      </span>
+      spreads fear during every
+      <span class="blank" data-answer="epidemic">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">rapid spread of disease</span>
+      </span>.
+      Governments sometimes impose
+      <span class="blank" data-answer="censorship">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">controlling or suppressing information</span>
+      </span>
+      to slow rumours, but critics say this violates
+      <span class="blank" data-answer="equality">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">equal rights and opportunities</span>
+      </span>.
+    </p>
+
+    <p>
+      Activists often
+      <span class="blank" data-answer="demand">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">ask for something forcefully</span>
+      </span>
+      reforms and
+      <span class="blank" data-answer="raise awareness">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">educate people about an issue</span>
+      </span>
+      about mental-health and
+      <span class="blank" data-answer="work-life balance">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">managing time between work and life</span>
+      </span>.
+      Charities try to
+      <span class="blank" data-answer="empower">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">give power or confidence</span>
+      </span>
+      <span class="blank" data-answer="underprivileged">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">lacking basic advantages</span>
+      </span>
+      communities, while volunteers help people who
+      <span class="blank" data-answer="live in poverty">
+        <input type="text" />
+        <span class="tooltip">?</span>
+        <span class="tipbox">be extremely poor</span>
+      </span>.
+    </p>
+
+    <button id="check">Check your score</button>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>📊 Your Results</h2>
+      <p id="modal-text"></p>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
